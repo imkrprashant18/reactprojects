@@ -4,14 +4,37 @@ import "./App.css";
 function App() {
   let [counter, setCount] = useState(15);
   const addValue = () => {
-    if (counter < 20) {
-      setCount(counter + 1);
-    }
+    setCount((prevCounter) => prevCounter + 1);
+    setCount((prevCounter) => prevCounter + 1);
+    setCount((prevCounter) => prevCounter + 1);
+    setCount((prevCounter) => prevCounter + 1);
+    setCount((prevCounter) => prevCounter + 1);
+    // if (counter < 20) {
+    //   setCount(counter + 1);
+    // }
   };
   const removeValue = () => {
-    if (counter > 0) {
-      setCount(counter - 1);
-    }
+    setCount((prevCounter) => {
+      return prevCounter - 1;
+    });
+    setCount((prevCounter) => {
+      return prevCounter - 1;
+    });
+    setCount((prevCounter) => {
+      return prevCounter - 1;
+    });
+    setCount((prevCounter) => {
+      return prevCounter - 1;
+    });
+    setCount((prevCounter) => {
+      return prevCounter - 1;
+    });
+    setCount((prevCounter) => {
+      return prevCounter - 1;
+    });
+    // if (counter > 0) {
+    //   setCount(counter - 1);
+    // }
   };
 
   return (
