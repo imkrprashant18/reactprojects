@@ -1,4 +1,4 @@
-import { Card, Header, Navbar, Products, Student } from "./components";
+import { Card, Footer, Header, Navbar, Products, Student } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Student />
       <Card />
       <Products />
+      <Footer />
     </>
   );
 }
