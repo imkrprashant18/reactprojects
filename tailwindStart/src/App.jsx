@@ -19,6 +19,43 @@ function App() {
             </div>
           </div>
         </div>
+        <button className="text-white bg-sky-500 text-center mt-2 text-base p-2 rounded-lg hover:bg-white dark:bg-red-600 hover:text-black ">
+          Buy Now
+        </button>
+
+        <div className="text-center my-4">
+          <p className="text-white md:text-green-500 sm:text-red-600 ">
+            Lorem ipsum dolor sit
+          </p>
+        </div>
+        <div className="mt-3 ">
+          <div className="max-w-sm mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl">
+            <div className="md:flex">
+              <div>
+                <img
+                  className="h-48 w-full object-cover md:h-full md:w-48 "
+                  src="https://images.pexels.com/photos/13847596/pexels-photo-13847596.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load"
+                  alt="hitesh sir"
+                />
+              </div>
+              <div className="p-8">
+                <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">
+                  An Awesom Card
+                  <a
+                    href=""
+                    className="block mt-1 text-lg font-medium hover:text-blue-700"
+                  >
+                    Tailwind Css is great css
+                    <p className="mt-2 text-slate-500">
+                      Lorem ipsum dolor sit, amet consectetur adipisicing elit
+                    </p>
+                    .
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );
